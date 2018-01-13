@@ -242,7 +242,7 @@ Finally, you can write comments with `#`. Anything after `#` and the `#` will be
 
 ## Prerequisites
 
-Ruby >= 2 is necessary to install the command line tool. If you have that, just run `gem install poe-css` and then `poe-css <input file>`.
+Ruby >= 2.4 is necessary to install the command line tool. If you have that, just run `gem install poe-css` and then `poe-css <input file>`.
 
 ## Running the tests
 
