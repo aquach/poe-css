@@ -35,7 +35,7 @@
 .u-flexCenter
   .pane.u-maxWidth
     %h1 Input
-    %textarea#input.u-maxWidth(style="height: 50vh")
+    %textarea#input.u-maxWidth(style="height: 90vh")
       :plain
         @black: RGB(0, 0, 0)
         @white: RGB(255, 255, 255)
@@ -82,7 +82,7 @@
 
   .pane.u-maxWidth
     %h1 Output
-    .output#output
+    %textarea.output.u-maxWidth#output(style="height: 90vh")
 
 :javascript
   var inputNode = document.getElementById('input');
