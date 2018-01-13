@@ -37,17 +37,47 @@
     %h1 Input
     %textarea#input.u-maxWidth(style="height: 50vh")
       :plain
-        Rarity <= Magic {
-          SetBorderColor rgb(255, 0, 0)
+        @black: RGB(0, 0, 0)
+        @white: RGB(255, 255, 255)
+
+        @t1-gem-text-color: RGB(30, 200, 200)
+        @t1-gem-border-color: RGB(30, 150, 180)
+        @t1-gem-bg-color: @white
+
+        @volume: 300
+        @t1-drop-sound: 6 @volume
+        @unique-drop-sound: 3 @volume
+        @value-drop-sound: 2 @volume
+
+        @gem-styling() {
+          SetTextColor @t1-gem-text-color
+          SetBorderColor @t1-gem-border-color
         }
 
-        ItemLevel < 25 {
+        Class Gems {
           Hide
-          SetFontSize 13
-        }
+          SetFontSize 36
+          SetBorderColor @black
 
-        Quality = 20, ItemLevel >= 68 {
-          SetTextColor rgb(0, 0, 255, 128)
+          Quality >= 1 {
+            Show
+            SetFontSize 40
+            SetBorderColor @t1-gem-border-color
+          }
+
+          BaseType "Detonate Mines" "Added Chaos Damage" "Vaal" "Enhance" | Quality >= 14 {
+            Show
+            SetFontSize 40
+            @gem-styling()
+            PlayAlertSound @value-drop-sound
+          }
+
+          BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Grace" "Item Quantity" "Vaal Breach" {
+            Show
+            SetFontSize 45
+            @gem-styling()
+            PlayAlertSound @unique-drop-sound
+          }
         }
 
   .pane.u-maxWidth
