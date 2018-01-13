@@ -2,7 +2,7 @@
 
 A better way to write item filters for Path of Exile.
 
-Example:
+Example ([live demo](http://alexqua.ch/poe-css/)):
 
 ```
 @black: RGB(0, 0, 0)
