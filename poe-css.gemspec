@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version = POECSS::VERSION
   s.authors = [ 'Alex Quach' ]
   s.email = [ 'alexhquach@gmail.com' ]
-  s.homepage = ''
+  s.homepage = 'https://github.com/aquach/poe-css'
   s.summary = 'A better way to write item filters for Path of Exile.'
   s.description = 'A better way to write item filters for Path of Exile.'
 
