@@ -62,7 +62,7 @@ Exile.
 
 ## Getting Started
 
-`poe-css` is available online at LINK and as a command line utility. Both
+`poe-css` is available online at http://alexqua.ch/poe-css/ and as a command line utility. Both
 transform PoE CSS filters into standard item filters that can be plugged into
 Path of Exile. **PoE CSS filters are not directly compatible with Path of Exile**.
 Below are instructions for installing the command line tool.
@@ -242,7 +242,7 @@ Finally, you can write comments with `#`. Anything after `#` and the `#` will be
 
 ## Prerequisites
 
-Ruby >= 2.4 is necessary to install the command line tool. If you have that, just run `gem install poe-css` and then `poe-css <input file>`.
+Ruby >= 2.4 is necessary to install the command line tool. If you have that, just run `gem install poe-css` and then `poe-css <input file>`. If you don't want to use this, you can paste your PoE CSS file into http://alexqua.ch/poe-css/.
 
 ## Running the tests
 
