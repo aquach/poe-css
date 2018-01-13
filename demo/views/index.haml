@@ -91,7 +91,7 @@
   function compile() {
     var input = inputNode.value;
 
-    fetch('/compile?input=' + encodeURIComponent(input))
+    fetch('compile?input=' + encodeURIComponent(input))
       .then(result => {
         if (result.ok) {
           result.text().then(o => { outputNode.innerHTML = o; })
