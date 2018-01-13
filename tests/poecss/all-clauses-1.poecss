@@ -1,0 +1,24 @@
+ItemLevel >= 25,
+DropLevel > 25,
+Quality = 20,
+Rarity Unique,
+Class "asdf" other thing "in quotes",
+BaseType "b",
+Sockets < 2,
+LinkedSockets <= 5,
+SocketGroup RR GG B W rr g b w,
+Height > 1,
+Width 5,
+Identified,
+Corrupted True,
+ElderItem False,
+ShapedMap True,
+ShaperItem False {
+  Show
+  SetBorderColor rgb(255, 2, 2)
+  SetTextColor rgb(255, 2, 3, 2)
+  SetBackgroundColor rgba(255, 2, 3)
+  PlayAlertSound 1
+  PlayAlertSoundPositional 1 300
+  SetFontSize 13
+}

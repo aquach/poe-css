@@ -1,0 +1,14 @@
+#!/usr/bin/ruby
+
+# frozen_string_literal: true
+
+require_relative '../lib/dependencies'
+
+input =
+  if ARGV.first
+    File.read(ARGV.first)
+  else
+    STDIN.read
+  end
+
+puts POECSS.compile(input)

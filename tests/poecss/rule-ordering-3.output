@@ -1,0 +1,30 @@
+Show
+  ItemLevel <= 24
+  ItemLevel >= 23
+  SetFontSize 18
+
+Show
+  ItemLevel <= 22
+  ItemLevel >= 21
+  SetFontSize 17
+
+Show
+  ItemLevel <= 24
+  ItemLevel >= 21
+  SetFontSize 16
+
+Show
+  ItemLevel <= 25
+  ItemLevel >= 20
+  SetFontSize 15
+
+Show
+  ItemLevel <= 30
+  ItemLevel >= 20
+  SetFontSize 14
+
+Show
+  ItemLevel <= 25
+  ItemLevel >= 10
+  SetFontSize 13
+

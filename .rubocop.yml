@@ -1,0 +1,186 @@
+AllCops:
+  CacheRootDirectory: .rubocop-cache
+  TargetRubyVersion: 2.4.2
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/EmptyLinesAroundArguments:
+  Enabled: false
+
+Layout/FirstArrayElementLineBreak:
+  Enabled: true
+
+Layout/FirstHashElementLineBreak:
+  Enabled: true
+
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: true
+
+Layout/FirstMethodParameterLineBreak:
+  Enabled: true
+
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
+Layout/IndentHash:
+  EnforcedStyle: consistent
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space
+
+Layout/SpaceAroundOperators:
+  AllowForAlignment: false
+
+Layout/SpaceBeforeBlockBraces:
+  EnforcedStyleForEmptyBraces: space
+  EnforcedStyle: space
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: true
+  EnforcedStyle: space
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: space
+
+Lint/AssignmentInCondition:
+  AllowSafeAssignment: true
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/BlockNesting:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 150
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: false
+
+Naming/VariableNumber:
+  Enabled: false
+
+Performance/Casecmp:
+  Enabled: false
+
+Performance/Count:
+  SafeMode: false
+
+Performance/Detect:
+  SafeMode: false
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/AutoResourceCleanup:
+  Enabled: true
+
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+Style/CollectionMethods:
+  PreferredMethods:
+    detect: find
+
+Style/CommentAnnotation:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/InverseMethods:
+  Enabled: false
+
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/NegatedWhile:
+  Enabled: false
+
+Style/Next:
+  Enabled: false
+
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
+Style/OptionHash:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/StringMethods:
+  Enabled: true
+
+Style/SymbolArray:
+  Enabled: true
+
+Style/TernaryParentheses:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: no_comma
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: no_comma
+
+Style/WhileUntilModifier:
+  Enabled: false

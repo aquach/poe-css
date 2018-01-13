@@ -1,0 +1,7 @@
+@expand(@a, @b, @c) {
+  @a
+  @b
+  @c
+}
+
+@expand(1, 2, 3)

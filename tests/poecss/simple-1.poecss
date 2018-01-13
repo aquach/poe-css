@@ -1,0 +1,8 @@
+ItemLevel >= 25 {
+  Show
+}
+
+Rarity Unique {
+  Show
+  SetTextColor rgb(255, 0, 0)
+}

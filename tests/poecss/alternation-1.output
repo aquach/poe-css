@@ -1,0 +1,8 @@
+Show
+  Rarity = Unique
+  SetFontSize 15
+
+Show
+  ItemLevel >= 25
+  SetFontSize 15
+

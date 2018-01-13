@@ -1,0 +1,8 @@
+Class A {
+  Show
+
+  Class A {
+    Show
+    SetFontSize 13
+  }
+}

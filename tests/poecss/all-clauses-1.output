@@ -1,0 +1,23 @@
+Show
+  BaseType "b"
+  Class "asdf" "in quotes" "other" "thing"
+  Corrupted True
+  DropLevel > 25
+  ElderItem False
+  Height > 1
+  Identified True
+  ItemLevel >= 25
+  LinkedSockets <= 5
+  Quality = 20
+  Rarity = Unique
+  ShapedMap True
+  ShaperItem False
+  SocketGroup "RR" "B" "G" "W"
+  Sockets < 2
+  Width = 5
+  PlayAlertSound 1
+  PlayAlertSoundPositional 1 300
+  SetBackgroundColor 255 2 3 255
+  SetBorderColor 255 2 2 255
+  SetFontSize 13
+  SetTextColor 255 2 3 2

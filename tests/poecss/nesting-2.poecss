@@ -1,0 +1,23 @@
+ItemLevel >= 25 {
+  Show
+  SetFontSize 13
+
+  Rarity Unique {
+    SetFontSize 14
+
+    Quality < 5 {
+      SetFontSize 15
+    }
+  }
+
+  Rarity Magic {
+    SetFontSize 16
+
+    Quality < 5 {
+      SetFontSize 17
+    }
+  }
+
+  PlayAlertSound 13
+}
+

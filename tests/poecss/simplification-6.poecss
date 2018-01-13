@@ -1,0 +1,4 @@
+ItemLevel >= 25 {
+  Hide
+  Show
+}

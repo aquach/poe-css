@@ -1,0 +1,14 @@
+ItemLevel >= 37 {
+  Show
+  SetFontSize 37
+}
+
+Class A {
+  Show
+  SetFontSize 36
+}
+
+ItemLevel >= 35 {
+  Show
+  SetFontSize 35
+}

@@ -1,0 +1,6 @@
+Hide
+  ItemLevel > 25
+
+Show
+  ItemLevel < 25
+

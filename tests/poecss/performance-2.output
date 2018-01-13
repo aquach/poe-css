@@ -1,0 +1,60 @@
+Show
+  ItemLevel >= 39
+  SetFontSize 39
+
+Show
+  ItemLevel >= 38
+  SetFontSize 38
+
+Show
+  ItemLevel >= 37
+  SetFontSize 37
+
+Show
+  ItemLevel >= 36
+  SetFontSize 36
+
+Show
+  ItemLevel >= 35
+  SetFontSize 35
+
+Show
+  ItemLevel >= 34
+  SetFontSize 34
+
+Show
+  ItemLevel >= 33
+  SetFontSize 33
+
+Show
+  ItemLevel >= 32
+  SetFontSize 32
+
+Show
+  ItemLevel >= 31
+  SetFontSize 31
+
+Show
+  ItemLevel >= 30
+  SetFontSize 30
+
+Show
+  ItemLevel >= 29
+  SetFontSize 29
+
+Show
+  ItemLevel >= 28
+  SetFontSize 28
+
+Show
+  ItemLevel >= 27
+  SetFontSize 27
+
+Show
+  ItemLevel >= 26
+  SetFontSize 26
+
+Show
+  ItemLevel >= 25
+  SetFontSize 25
+

@@ -1,0 +1,13 @@
+ItemLevel >= 25 {
+  Show
+
+  Rarity Unique {
+    Quality >= 19 {
+      SetFontSize 13
+    }
+
+    Quality >= 20 {
+      SetFontSize 14
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@1cool_identifIer_1: 5
+@b_: this is a string
+@crazyIdentifier4: omg
+@another-crazy-identifier: omg
+
+@my_macro(@1cool_identifIer_1) {
+  first: @1cool_identifIer_1
+  second: @b_
+  third: @crazyIdentifier4
+}
+
+first invocation:
+@my_macro(@1cool_identifIer_1)
+
+second invocation:
+@my_macro(@b_)
+
+third invocation:
+@my_macro(@another-crazy-identifier)

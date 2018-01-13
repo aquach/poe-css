@@ -1,0 +1,25 @@
+Show
+  ItemLevel >= 39
+  Rarity = Unique
+  PlayAlertSound 1
+  SetFontSize 39
+
+Show
+  ItemLevel >= 39
+  SetFontSize 39
+
+Show
+  ItemLevel >= 38
+  SetFontSize 38
+
+Show
+  ItemLevel >= 37
+  SetFontSize 37
+
+Show
+  ItemLevel >= 36
+  SetFontSize 36
+
+Show
+  ItemLevel >= 35
+  SetFontSize 35

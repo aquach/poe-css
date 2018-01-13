@@ -1,0 +1,75 @@
+ItemLevel >= 25 {
+  Show
+  SetFontSize 25
+}
+
+ItemLevel >= 26 {
+  Show
+  SetFontSize 26
+}
+
+ItemLevel >= 27 {
+  Show
+  SetFontSize 27
+}
+
+ItemLevel >= 28 {
+  Show
+  SetFontSize 28
+}
+
+ItemLevel >= 29 {
+  Show
+  SetFontSize 29
+}
+
+ItemLevel >= 30 {
+  Show
+  SetFontSize 30
+}
+
+ItemLevel >= 31 {
+  Show
+  SetFontSize 31
+}
+
+ItemLevel >= 32 {
+  Show
+  SetFontSize 32
+}
+
+ItemLevel >= 33 {
+  Show
+  SetFontSize 33
+}
+
+ItemLevel >= 34 {
+  Show
+  SetFontSize 34
+}
+
+ItemLevel >= 35 {
+  Show
+  SetFontSize 35
+}
+
+ItemLevel >= 36 {
+  Show
+  SetFontSize 36
+}
+
+ItemLevel >= 37 {
+  Show
+  SetFontSize 37
+}
+
+ItemLevel >= 38 {
+  Show
+  SetFontSize 38
+}
+
+ItemLevel >= 39 {
+  Show
+  SetFontSize 39
+}
+

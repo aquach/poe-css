@@ -1,0 +1,3 @@
+ItemLevel >= 25, ItemLevel >= 26 {
+  Show
+}

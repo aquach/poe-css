@@ -1,0 +1,9 @@
+ItemLevel >= 25 {
+  Show
+  SetFontSize 13
+}
+
+Rarity = Unique {
+  Show
+  SetFontSize 14
+}

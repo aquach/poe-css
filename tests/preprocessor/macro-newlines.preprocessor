@@ -1,0 +1,9 @@
+@test() { 1 }
+
+hello @test() hello
+
+@test2() {
+  1
+}
+
+hello@test2()hello

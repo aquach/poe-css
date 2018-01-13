@@ -1,0 +1,7 @@
+Show
+  ItemLevel >= 35
+  SetFontSize 35
+
+Show
+  Class "A"
+  SetFontSize 36

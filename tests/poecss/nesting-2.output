@@ -1,0 +1,30 @@
+Show
+  ItemLevel >= 25
+  Quality < 5
+  Rarity = Magic
+  PlayAlertSound 13
+  SetFontSize 17
+
+Show
+  ItemLevel >= 25
+  Rarity = Magic
+  PlayAlertSound 13
+  SetFontSize 16
+
+Show
+  ItemLevel >= 25
+  Quality < 5
+  Rarity = Unique
+  PlayAlertSound 13
+  SetFontSize 15
+
+Show
+  ItemLevel >= 25
+  Rarity = Unique
+  PlayAlertSound 13
+  SetFontSize 14
+
+Show
+  ItemLevel >= 25
+  PlayAlertSound 13
+  SetFontSize 13

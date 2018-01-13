@@ -1,0 +1,20 @@
+first invocation:
+
+  first: 5
+  second: this is a string
+  third: omg
+
+
+second invocation:
+
+  first: this is a string
+  second: this is a string
+  third: omg
+
+
+third invocation:
+
+  first: omg
+  second: this is a string
+  third: omg
+

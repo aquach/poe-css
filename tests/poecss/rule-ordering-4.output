@@ -1,0 +1,20 @@
+Show
+  ItemLevel <= 22
+  ItemLevel >= 21
+  SetFontSize 13
+
+Show
+  ItemLevel <= 24
+  ItemLevel >= 23
+  PlayAlertSound 1
+  SetFontSize 13
+
+Show
+  ItemLevel <= 25
+  ItemLevel >= 10
+  SetFontSize 13
+
+Show
+  ItemLevel <= 30
+  ItemLevel >= 20
+  SetFontSize 14

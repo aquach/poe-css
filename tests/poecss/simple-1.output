@@ -1,0 +1,7 @@
+Show
+  Rarity = Unique
+  SetTextColor 255 0 0 255
+
+Show
+  ItemLevel >= 25
+

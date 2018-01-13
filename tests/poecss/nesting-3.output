@@ -1,0 +1,15 @@
+Show
+  ItemLevel >= 25
+  Quality >= 20
+  Rarity = Unique
+  SetFontSize 14
+
+Show
+  ItemLevel >= 25
+  Quality >= 19
+  Rarity = Unique
+  SetFontSize 13
+
+Show
+  ItemLevel >= 25
+

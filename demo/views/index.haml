@@ -1,0 +1,75 @@
+:css
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .u-flexCenter {
+    display: flex;
+    width: 100%;
+    align-items: top;
+    justify-content: center;
+  }
+
+  .u-maxWidth {
+    width: 100%;
+  }
+
+  body {
+    padding: 0.5em;
+  }
+
+  .pane {
+    padding: 0.5em;
+  }
+
+  .output {
+    white-space: pre;
+    font-family: monospace;
+  }
+
+  h1 {
+    margin-bottom: 0.25em;
+  }
+
+.u-flexCenter
+  .pane.u-maxWidth
+    %h1 Input
+    %textarea#input.u-maxWidth(style="height: 50vh")
+      :plain
+        Rarity <= Magic {
+          SetBorderColor rgb(255, 0, 0)
+        }
+
+        ItemLevel < 25 {
+          Hide
+          SetFontSize 13
+        }
+
+        Quality = 20, ItemLevel >= 68 {
+          SetTextColor rgb(0, 0, 255, 128)
+        }
+
+  .pane.u-maxWidth
+    %h1 Output
+    .output#output
+
+:javascript
+  var inputNode = document.getElementById('input');
+  var outputNode = document.getElementById('output');
+
+  function compile() {
+    var input = inputNode.value;
+
+    fetch('/compile?input=' + encodeURIComponent(input))
+      .then(result => {
+        if (result.ok) {
+          result.text().then(o => { outputNode.innerHTML = o; })
+        } else {
+          outputNode.innerHTML = 'Parse Error';
+        }
+      });
+  };
+
+  inputNode.addEventListener('keyup', compile);
+  compile();
